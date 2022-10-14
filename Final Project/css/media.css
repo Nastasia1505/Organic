@@ -1,0 +1,379 @@
+@media (max-width:480px) {
+
+
+    html {
+        font-size: 12px;
+    }
+
+    /* .eco-friendly {
+        display: none;
+    } */
+
+    /* HEADER START */
+    .header {
+        position: fixed;
+        width: 100%;
+        opacity: 1;
+        background-color: #ffffffea;
+        padding: 5px 5px 5px 5px;
+    }
+
+    .shoppingbtn {
+        height: 36px;
+        width: 36px;
+        margin-right: 10px;
+    }
+
+    .navlinks {
+        display: none;
+    }
+
+    .navLogo {
+        display: none;
+    }
+
+    .basketbtn {
+        z-index: 1;
+        padding: 3px 15px 3px 8px;
+
+    }
+
+    .padding-basketbtn {
+        padding-bottom: 0px;
+    }
+
+    /*HUMBURGER MENU*/
+    .hamburger-menu {
+        display: flex;
+    }
+
+    #menu__toggle {
+        opacity: 0;
+    }
+
+    #menu__toggle:checked+.menu__btn>span {
+        transform: rotate(45deg);
+    }
+
+    #menu__toggle:checked+.menu__btn>span::before {
+        top: 0;
+        transform: rotate(0deg);
+    }
+
+    #menu__toggle:checked+.menu__btn>span::after {
+        top: 0;
+        transform: rotate(90deg);
+    }
+
+    #menu__toggle:checked~.menu__box {
+        left: 0 !important;
+    }
+
+    .menu__btn {
+        width: 100px;
+        height: 28px;
+        top: 14px;
+        left: 20px;
+
+        cursor: pointer;
+        background-image: url(../images/logo.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        z-index: 3;
+    }
+
+    .menu__box {
+        position: relative;
+        display: block;
+        position: fixed;
+        top: 0;
+        left: -100%;
+        width: 300px;
+        height: 100%;
+        margin: 0;
+        padding: 80px 0;
+
+        list-style: none;
+        background-color: #eceff1ec;
+        box-shadow: 2px 2px 6px #274c5b(0, 0, 0, .4);
+        transition-duration: .25s;
+        z-index: 1;
+    }
+
+    /* .menu__box::before{
+        position: absolute;
+        filter: blur(100px)
+    } */
+    .menu__item {
+        display: block;
+        padding: 12px 24px;
+        color: #274c5b;
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;
+        font-weight: 600;
+        text-decoration: none;
+        transition-duration: .25s;
+    }
+
+    .menu__item:hover {
+        color: #7EB693;
+    }
+
+    /*HUMBURGER MENU END*/
+
+    /* HEADER END */
+    /* MAIN WRAPPER*/
+
+    .preview-info__title {
+        margin-bottom: 8px;
+    }
+
+    .preview-info__subtitle {
+        margin-bottom: 15px;
+        font-size: 2.6rem;
+    }
+
+    .preview-info {
+
+        padding-top: 80px;
+        padding-left: 15px;
+        padding-bottom: 80px;
+    }
+
+    .main-button {
+        padding: 10px 5px 10px 15px;
+    }
+
+    .main-button__text {
+        padding-right: 12px;
+    }
+
+    .circleforvector {
+        height: 28px;
+        width: 28px;
+    }
+
+    /* MAIN WRAPPER END*/
+
+    /*DiSCONTS*/
+    .discounts-items {
+        flex-direction: column;
+        padding: 30px 15px 30px 15px;
+        gap: 15px;
+    }
+
+    .discounts-item {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        padding-left: 20px;
+        width: 100%;
+        background-size: 100% 100%;
+    }
+
+    /*DiSCONTS END*/
+
+    /* ABOUT*/
+
+    .about {
+        padding: 30px 15px 30px 15px;
+    }
+
+    .about-image {
+        display: none;
+    }
+
+    .about-subtitle {
+        margin-bottom: 12px;
+    }
+
+    .delivery {
+        margin-bottom: 30px;
+        gap: 10px;
+    }
+
+    .delivery__title {
+        margin-bottom: 3px;
+    }
+
+    .delivery-image {
+        padding: 17px 14px 17px 14px;
+    }
+
+    /* ABOUT END*/
+
+    /*PRODUCTS*/
+
+    .products-subtitle {
+        margin-bottom: 15px;
+
+    }
+
+    .products {
+        justify-content: center;
+        padding-top: 30px;
+        padding-bottom: 30px;
+
+    }
+
+    .product {
+        padding: 15px 15px 15px 15px;
+
+    }
+
+    /*PRODUCTS END*/
+
+    /*TESTIMONIAL*/
+    .testimonial {
+        padding-top: 0px;
+        padding-bottom: 60px;
+    }
+
+    .testimonial__info::after {
+        top: 105%;
+    }
+
+    .testimonial-sudtitle {
+        font-size: 2.5rem;
+        margin-bottom: 60px;
+    }
+
+    .stars {
+        margin-bottom: 15px;
+    }
+
+    .testimonial__customer {
+        margin-bottom: 50px;
+    }
+
+    .circle {
+        width: 200px;
+        height: 200px;
+    }
+
+    .testimonial-circles {
+        flex-wrap: wrap;
+        gap: 16px;
+    }
+
+    /*TESTIMONIAL END*/
+
+    /*OFFER*/
+    .offer {
+        padding: 50px 15px 60px 15px;
+    }
+
+    /*OFFER END*/
+
+    /*ECO FRIENDLY*/
+  
+  .eco-friendly {
+    width: 100%;
+  }
+  
+  .eco-friendly__info {
+    position: static;
+    padding: 40px 58px 30px 52px
+  }
+ 
+  .eco-friendly-img {
+    display: none;
+  }
+  
+  /*ECO FRIENDLY END*/
+
+
+    /*SUBSCRIBE*/
+    .subscribe {
+        padding: 15px;
+    }
+
+    .subscribe-newsletter {
+        padding: 60px 45px 60px 35px;
+        background-size: 100% 100%;
+    }
+
+    .get-box {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .subscribe__title {
+        font-size: 1.7rem;
+    }
+
+    .subscribe__form--enter {
+        padding: 15px 20px 15px 9px;
+    }
+
+    /*SUBSCRIBE END*/
+/*SELECTION*/
+.selection {
+    padding-top: 0px;
+    padding-bottom: 0px;
+
+    background-color: #ffffff;
+  }
+  
+  
+  
+  /*SELECTION END*/
+    /*FOOTER*/
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding-top: 15px;
+        padding-bottom: 20px;
+        gap: 15px;
+    }
+
+    .organic {
+        padding-left: 0px;
+        padding-right: 0px;
+
+        border-left: none;
+        border-right: none;
+    }
+
+    .contacts {
+        text-align: center;
+        padding-right: 0px;
+    }
+
+    .utility {
+        text-align: center;
+        gap: 9px;
+    }
+
+    .contacts__title {
+        margin-bottom: 9px;
+    }
+
+    .footer__logo {
+        margin-bottom: 10px;
+    }
+
+    .footer__text {
+        margin-bottom: 10px;
+    }
+
+    .footer__social-networks {
+        gap: 9px;
+    }
+
+    .social-network {
+        height: 30px;
+        width: 30px;
+    }
+
+    .contacts__item {
+        gap: 5px;
+    }
+
+    /*FOOTER END*/
+
+
+}
